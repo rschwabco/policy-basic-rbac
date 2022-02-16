@@ -1,0 +1,52 @@
+{
+  "roles": {
+    "admin": {
+      "perms": {
+        "template": {
+          "allowed": true
+        },
+        "basic_rbac.view": {
+          "allowed": true
+        },
+        "basic_rbac.edit": {
+          "allowed": true
+        },
+        "basic_rbac.delete": {
+          "allowed": true
+        }
+      }
+    },
+    "editor": {
+      "perms": {
+        "template": {
+          "allowed": true
+        },
+        "basic_rbac.view": {
+          "allowed": true
+        },
+        "basic_rbac.edit": {
+          "allowed": true
+        },
+        "basic_rbac.delete": {
+          "allowed": false
+        }
+      }
+    },
+    "viewer": {
+      "perms": {
+        "template": {
+          "allowed": true
+        },
+        "basic_rbac.view": {
+          "allowed": true
+        },
+        "basic_rbac.edit": {
+          "allowed": false
+        },
+        "basic_rbac.delete": {
+          "allowed": false
+        }
+      }
+    }
+  }
+}
